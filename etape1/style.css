@@ -1,0 +1,42 @@
+/* Conteneur du tableau : centré, police Calibri en premier, ombre légère (énoncé TP slide 10) */
+#table_container {
+    width: 80%;
+    margin: 40px auto;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 14px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    padding-bottom: 20px;
+}
+
+/* Tableau pleine largeur, bordures fusionnées */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Ligne d'entête bleue (énoncé TP slide 9) */
+th {
+    background-color: #007bbd;
+    color: white;
+    padding: 12px 8px;
+}
+
+td {
+    padding: 12px 8px;
+    border: 1px solid #e0e0e0;
+}
+
+
+.col_number {
+    text-align: center;
+    width: 60px;
+}
+
+.col_text {
+    text-align: left;
+}
+
+.col_chkbox {
+    text-align: center;
+    width: 80px;
+}

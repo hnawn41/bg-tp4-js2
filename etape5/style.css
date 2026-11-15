@@ -1,0 +1,81 @@
+
+#table_container {
+    width: 80%;
+    margin: 40px auto;
+    font-family: Calibri, Arial, sans-serif;
+    font-size: 14px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+    padding-bottom: 20px;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+th {
+    background-color: #007bbd;
+    color: white;
+    padding: 12px 8px;
+}
+
+td {
+    padding: 12px 8px;
+    border: 1px solid #e0e0e0;
+}
+
+
+.col_number {
+    text-align: center;
+    width: 60px;
+}
+
+.col_text {
+    text-align: left;
+}
+
+.col_chkbox {
+    text-align: center;
+    width: 80px;
+}
+
+
+#container_summary {
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f0;
+    padding: 0 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+#container_summary p {
+    margin: 10px 0;
+}
+
+/* Formulaire de saisie au-dessus du tableau (énoncé TP slide 49) */
+#form_container {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 12px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.form_group {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    flex: 1;
+}
+
+.form_label {
+    font-weight: bold;
+}
+
+.form_field {
+    flex: 1;
+    padding: 4px;
+    border: 1px solid #555;
+}
